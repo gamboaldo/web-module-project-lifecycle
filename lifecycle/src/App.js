@@ -64,7 +64,7 @@ class App extends React.Component {
             onChange={this.handleChange}
             placeholder="enter user"
           />
-          <button>Get Me The Dogs</button>
+          <button>Get USER INFO</button>
         </form>
         <h1>******github users*******</h1>
         <h2>{[this.state.user]}</h2>
