@@ -2,13 +2,15 @@ import "./App.css";
 import axios from "axios";
 
 import React from "react";
-
+console.log(
+  axios.get("https://api.github.com/users/danielwright1207/followers")
+);
 class App extends React.Component {
   state = {
     user: "",
     userName: "",
     userPic: [],
-    userArea: "",
+    userArea: [],
     userCreation: "",
   };
 
