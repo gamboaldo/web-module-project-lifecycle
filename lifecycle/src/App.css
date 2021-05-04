@@ -1,0 +1,53 @@
+html {
+  background: url("https://www.designyourway.net/blog/wp-content/uploads/2019/04/abstract-wallpaper-97-1250x834.jpg")
+    no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.App {
+  text-align: center;
+  padding: 5%;
+}
+
+h1,
+h2,
+h3,
+p {
+  color: rgb(228, 228, 228);
+}
+
+img {
+  -webkit-box-shadow: 1px 0px 100px 34px #27ff51;
+  box-shadow: 1px 0px 100px 34px #27ff51;
+}
+
+Button {
+  color: rgb(255, 6, 28);
+  font-size: 21px;
+  line-height: 21px;
+  padding: 7px;
+  border-radius: 9px;
+  font-family: Georgia, serif;
+  font-weight: normal;
+  text-decoration: none;
+  font-style: normal;
+  font-variant: normal;
+  text-transform: none;
+  background-image: linear-gradient(
+    to right,
+    rgb(255, 255, 255) 0%,
+    rgb(255, 255, 255) 50%,
+    rgb(235, 235, 235) 100%
+  );
+  box-shadow: rgb(0, 0, 0) 5px 5px 15px 5px;
+  border: 2px solid rgb(28, 110, 164);
+  display: inline-block;
+}
+.myButton:hover {
+  background: #1c6ea4;
+}
+.myButton:active {
+  background: #144e75;
+}
